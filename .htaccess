@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteRule ^Accueil?$ index.php
+RewriteRule Qui-Sommes-Nous?$ about.php
+RewriteRule Comment-Demarrer?$ demarrer.php
+RewriteRule Cours?$ cours.php
+RewriteRule Atelier?$ atelier.php
+RewriteRule Planning?$ planning.php
+RewriteRule Retraite?$ retraite.php
+RewriteRule Yoga-Sur-Le-Toil?$ yoga-toil.php
+RewriteRule Blog?$ blog.php
+RewriteRule Contact?$ contact.php
