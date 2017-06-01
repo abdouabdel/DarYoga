@@ -2,7 +2,7 @@
 <html lang="fr">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <title>Asana - Single event</title>
+    <title>Daryoga</title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <!--[if lte IE 8]>
@@ -44,7 +44,7 @@
                 <p>
                     Depuis novembre 2016, nous nous réunissons une fois par mois sur différents toits de Casablanca,
                     le temps d’une séance de yoga, d’une vraie parenthèse dans notre quotidien. Le jeune et talentueux
-                    artiste/photographe, Ali Berrada, nous suit depuis le début de l’aventure...
+                    artiste/photographe, <a href="https://www.instagram.com/ali_berrada/">Ali Berrada</a>, nous suit depuis le début de l’aventure...
                     </p>
                 <p>
                     Le fruit de notre travail, sera prochainement partagé avec le grand public, lors d’une exposition
@@ -106,9 +106,9 @@
         </div>
     </div>
     <div class="nextEventBox" style="background-image: url(images/content/nextEvent.jpg);">
-        <time class="eventItemTime" datetime="2015-02-01">February 1, 2015 12:00 PM</time>
-        <h3>Yoga Classes for Discover <br> Outdoors</h3>
-        <a href="#" class="nextEventBtn">read next</a>
+        <a href="Atelier" class="classesCategory">Ateliers</a>
+        <h3>Choisissez votre classe <br> Rojoignez nous</h3>
+        <a href="Cours" class="nextEventBtn">Voir les cours</a>
     </div>
 </section>
 

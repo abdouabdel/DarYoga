@@ -1,4 +1,27 @@
 <header id="header">
+        <div class="header-a">
+            <div class="wrapper-padding">
+                <div class="container">
+                    <div style="margin-left: 10%" class="header-phone"><a href="tel:+212 522 362 719"><span>05 22 36 27 19</span></a></div>
+                    <div class="header-phone"><a href="tel:+212 670 991 825"><span>06 70 99 18 25 </span></a></div>
+                    <div style="margin-right: 10%" class="header-lang">
+                        <a href="#"><img alt="" src="images/fr.gif" /></a>
+                        <div class="langs-drop">
+                            <div><a href="#" class="langs-item en">Anglais</a></div>
+                            <div><a href="#" class="langs-item fr">français</a></div>
+                        </div>
+                    </div>
+                    <div class="header-curency">
+                        <a href="mailto:conatct@daryoga.com">
+                            contact@daryoga.com
+                        </a>
+
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+        </div>
     <div class="headerWrap clear is-sticky">
         <a href="/" class="logo">
             <!-- You can also use image as a logo the example below -->
@@ -12,26 +35,51 @@
         </a>
         <nav class="mainMenu">
             <ul class="clear">
-                <li><a href="/">Accueil</a></li>
-                <li><a href="Qui-Sommes-Nous">Qui sommes nous</a></li>
-                <li>
-                    <a href="Comment-Demarrer">Comment démarrer</a>
+                <li><a href="/">L'école</a>
                     <ul>
-                        <li><a href="Cours">Cours</a></li>
-                        <li><a href="Retraite">Retraite</a></li>
-                        <li><a href="Atelier">Atelier</a></li>
-                        <li><a href="Yoga-Sur-Le-Toil">Yoga Sur le Toit</a></li>
+                        <li><a href="Mission">Mission</a></li>
+                        <li><a href="Professeur">Professeur</a></li>
+                        <li><a href="Tradition">La tradition</a></li>
+                        <li><a href="Comment-Demarrer">Comment démarrer le Yoga</a></li>
+                    </ul>
+                </li>
+                <li><a href="Cours">Cours</a>
+                    <ul>
+                        <li><a href="Cours-Essais">Séance d'essai</a></li>
+                        <li><a href="Cours-Debutants">Séance débutant</a></li>
+                        <li><a href="Cours-Intermidiares">Séance intérmidiare</a></li>
+                        <li><a href="Yoga-En-Plein-Air">Séance en plein air</a></li>
+                        <li><a href="Yoga-Dooda">Yoga Dooda</a></li>
+                    </ul>
+                </li>
+                <li><a href="Atelier">Ateliers</a>
+                    <ul>
+                        <li><a href="Mise-a-Niveau">Mise à niveau</a></li>
+                        <li><a href="Perfectionnement-Posture">Perfectionnement de posture</a></li>
+                        <li><a href="Yoga-Ramadan">Yoga ramadan</a></li>
+                        <li><a href="#">July interne</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Retraite">Retraite</a>
+                    <ul>
+                        <li><a href="Retraite-Solo">En solo</a></li>
+                        <li><a href="Retraite-Famille">En famille</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="Planning">Planning</a>
                 </li>
                 <li>
-                    <a href="Blog">Blog</a>
+                    <a href="Yoga-Sur-Le-Toil">Yoga sur le toit</a>
+                </li>
+                <li><a href="Tarifs">Tarifs</a>
+
+                </li>
+                <li><a href="Blog">Blog</a>
+
                 </li>
 
-
-                <li><a href="Contact">Contact</a></li>
             </ul>
         </nav>
 			<span class="showMobileMenu">

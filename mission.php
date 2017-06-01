@@ -3,7 +3,7 @@
 	
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-		<title>Asana - About</title>
+		<title>DarYoga - About</title>
 		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 		<!--[if lte IE 8]>
@@ -28,15 +28,20 @@
 <?php  include('include/header.php');?>
 	<section class="container">
 		<div class="pageHeader" style="background-image: url(images/content/about.jpg);">
-			<h1>Qui somme nous</h1>
+			<h1>Notre mission</h1>
 		</div>
+        <div class="contentWrap">
+            <div class="pagePanel clear">
+                <a href="#" class="backToBtn"><i></i>  Comment démarrer ! </a>
+            </div>
+        </div>
 		<div class="ourStory">
 			<div class="wrapper">
 				<div class="storyItem clear">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="storyImg">
-								<img src="images/content/story.jpg" alt="">
+								<img src="images/content/story3.jpg" alt="">
 							</div>
 						</div>
 						<div class="col-md-6">
@@ -77,13 +82,98 @@
 				</div>
 				<div class="col-md-6">
 					<div class="storyImg2">
-						<img src="images/content/story.jpg" alt="">
+						<img src="images/content/story4.jpg" alt="">
 					</div>
 				</div>
 			</div>
 				</div>
 			</div>
 		</div>
+
+        <div class="contentWrap">
+            <div class="wrapper">
+                <div class="singlePostWrap">
+                    <h1>Notre mission</h1>
+                    <blockquote>
+                        <p>
+                            Offrir aux habitants de Casablanca la possibilité d’évacuer leur stress à
+                            travers l’apprentissage du hatha yoga classique indien.
+                        </p>
+                    </blockquote>
+                    <blockquote>
+                        <p>
+                            Donner la possibilité aux casablancais de réaliser leur pratique yoguique
+                            le plus souvent en plein air, pour favoriser un meilleur équilibre dans leur vie de citadin.
+                        </p>
+                    </blockquote>
+                    <blockquote>
+                        <p>
+                            Améliorez la relation avec soi-même, avec les autres et avec l’environnement.
+                        </p>
+                    </blockquote>
+                    <!--
+                    <p>Entant qu’habitant de Casablanca, il nous arrive souvent de souhaiter vivre dans un
+                        environnement moins hostile, moins stressant, moins pollué…ou de rêver d’un ailleurs,
+                        plus nourrissant et plus épanouissant. </p>
+                    <p>La réalité est que les choses ne changent que si la
+                        transformation a d’abord lieu en nous. </p>
+                    <p>Dans cette démarche de transformation de l’intérieur
+                        vers l’extérieur, il existe une multitude d’alternatives créatives pour améliorer notre
+                        quotidien de citadin. A travers DarYoga, je partage ma démarche personnelle dans laquelle j’évolue depuis plus de 15 ans. </p>
+
+
+                    <h2>Yoga, Hatha </h2>
+
+                    <p>
+                        A Daryoga, nous enseignons le hatha yoga classique indien, dans toute son authenticité.
+                        Les cours sont enseignés de manière pédagogique et évolutive, de façon à accompagner
+                        les élèves dans leur progression physique ainsi que dans leur cheminement intérieur.
+
+
+                    </p>
+                    <p>
+                        Il est parfois nécessaire de s’extraire de sa routine, de sortir de la ville pour
+                        se renouer ponctuellement avec la nature, la campagne ou montagne. <a href="Retraite">Nos Retraites</a> de yoga vous offre cette possibilité.
+                    </p>
+                    <p>
+                        Mais l’essentiel, est de pouvoir vivre son quotidien autrement. Et pour cela nous
+                        vous proposons régulièrement des séances de <a href="Yoga-Plein-Air">yoga en plein air</a> dans le jardin de l’atelier,
+                        et des séances de <a href="Yoga-Sur-Le-Toil">yoga sur le toit</a>.
+                    </p>
+                    <p>
+                        Daryoga est enfin de compte, une école de sensibilisation des consciences.
+                        A travers l’enseignement du hatha yoga traditionnel et de ses diverses techniques,
+                        les élèves prennent peu à peu conscience de leur corps, leur souffle, mais aussi de leur état d’humeurs,
+                        de leurs pensées, de leur alimentation, et de leurs impacts sur l’environnement.
+
+                    </p>
+
+                    <h2>Retraite Familiale  </h2>
+                    <p>
+                        Pour les parents qui souhaitent partager le yoga avec leurs enfants, les retraites familiales,
+                    </p>
+                    <p>
+                        organisées au printemps, propose un séjour alliant activité ludiques et éducatives dans les valeurs du yoga.
+                    </p>
+
+                </div>
+                <div class="shareSinglePost">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div>
+                -->
+            </div>
+        </div>
+        <div class="nextEventBox" style="background-image: url(images/content/nextEvent.jpg);">
+            <a href="Atelier" class="classesCategory">Ateliers</a>
+            <h3>Choisissez votre classe <br> Rojoignez nous</h3>
+            <a href="Cours" class="nextEventBtn">Voir les cours</a>
+        </div>
+
+<!--
+
 		<div class="ourTeam">
 			<div class="blockTitle">Le professeur</div>
 			<div class="teamItemWrap clear">
@@ -308,6 +398,8 @@
 				</div>
 			</div>
 		</div>
+
+		-->
 	</section>
 
 	<?php  include('include/footer.php');?>

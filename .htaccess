@@ -1,6 +1,6 @@
 RewriteEngine on
 RewriteRule ^Accueil?$ index.php
-RewriteRule Qui-Sommes-Nous?$ about.php
+RewriteRule Qui-Sommes-Nous?$ mission.php
 RewriteRule Comment-Demarrer?$ demarrer.php
 RewriteRule Cours?$ cours.php
 RewriteRule Atelier?$ atelier.php
@@ -8,4 +8,20 @@ RewriteRule Planning?$ planning.php
 RewriteRule Retraite?$ retraite.php
 RewriteRule Yoga-Sur-Le-Toil?$ yoga-toil.php
 RewriteRule Blog?$ blog.php
+RewriteRule Tarifs?$ tarifs.php
 RewriteRule Contact?$ contact.php
+RewriteRule Professeur?$ professeur.php
+RewriteRule Yoga-Dooda?$ yogadooda.php
+RewriteRule Cours-Essais?$ essai.php
+RewriteRule Cours-Intermidiares?$ intermidiaire.php
+RewriteRule Cours-Debutants?$ debutant.php
+RewriteRule Cours-Avances?$ avancee.php
+RewriteRule Yoga-En-Plein-Air?$ pleinair.php
+RewriteRule Retraite-Famille?$ famille.php
+RewriteRule Retraite-Solo?$ solo.php
+RewriteRule Mise-a-Niveau?$ niveau.php
+RewriteRule Perfectionnement-Posture?$ posture.php
+RewriteRule Yoga-Ramadan?$ ramadan.php
+RewriteRule Mission?$ mission.php
+RewriteRule Tradition?$ tradition.php
+RewriteRule Community?$ community.php

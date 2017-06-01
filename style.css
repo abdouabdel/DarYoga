@@ -85,6 +85,7 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 .about .logo path, .home .logo path {fill:#fff;}
 #header .is-sticky .logo {margin-top: 14px;}
 #header .is-sticky .logo path {fill:#333333!important;}
+#header .headerWrap.is-sticky2 {top: 0% !important;}
 
 .logo img {-webkit-transition: opacity 0.3s ease;-moz-transition: opacity 0.3s ease;-o-transition: opacity 0.3s ease;transition: opacity 0.3s ease;}
 .logo .logo-black {display: none;opacity: 0;}
@@ -102,7 +103,7 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 .mainMenu ul {margin-top: 11px;list-style: none;}
 .mainMenu > ul > li {position: relative; float: left;padding-bottom: 36px; margin: 0 0 0 40px;}
 .mainMenu > ul > li:first-child {margin-left: 0;}
-.mainMenu > ul > li a, .mainMenu > ul > li a:visited {display: block;line-height: 16px;padding: 0 1px;white-space: nowrap;word-wrap: normal; color: #fff;font-size: 15px;font-family: 'Montserrat', sans-serif;font-weight: 500; text-transform: uppercase;text-decoration: none;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
+.mainMenu > ul > li a, .mainMenu > ul > li a:visited {display: block;line-height: 16px;padding: 0 1px;white-space: nowrap;word-wrap: normal; color: #fff;font-size: 15px;font-family: 'Montserrat', sans-serif;font-weight: 500; text-decoration: none;-webkit-transition: color 0.3s ease;-moz-transition: color 0.3s ease;-o-transition: color 0.3s ease;transition: color 0.3s ease;}
 .mainMenu > ul > li.current-menu-item a, .mainMenu > ul > li a:hover {color: #333333;}
 .classes .mainMenu > ul > li a, .single-product .mainMenu > ul > li a, .cart .mainMenu > ul > li a, .single-event .mainMenu > ul > li a, .events .mainMenu > ul > li a,
 .catalog .mainMenu > ul > li a, .contact .mainMenu > ul > li a, .about .mainMenu > ul > li a,  .home .mainMenu > ul > li a {color: #fff;opacity: 0.7;-webkit-transition: opacity 0.3s ease;-moz-transition: opacity 0.3s ease;-o-transition: opacity 0.3s ease;transition: opacity 0.3s ease;}
@@ -117,7 +118,7 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 .mainMenu ul li ul {margin-top: -20px;display: none; position: absolute;left: 0;top: 52px;padding: 10px 0; background: #333333;}
 .mainMenu ul li:hover ul {display: block;}
 .mainMenu ul li ul li {position: relative;}
-.mainMenu ul li ul li a {position: relative; line-height: 32px; padding: 0 78px 0 20px;color: #8a8a8a!important;font-size: 16px;font-family: 'Lato', sans-serif;font-weight: 400;text-decoration: none;text-transform: uppercase;-webkit-transition: color 0.3s ease!important;-moz-transition: color 0.3s ease!important;-o-transition: color 0.3s ease!important;transition: color 0.3s ease!important; }
+.mainMenu ul li ul li a {position: relative; line-height: 32px; padding: 0 78px 0 20px;color: #8a8a8a!important;font-size: 16px;font-family: 'Lato', sans-serif;font-weight: 400;text-decoration: none;-webkit-transition: color 0.3s ease!important;-moz-transition: color 0.3s ease!important;-o-transition: color 0.3s ease!important;transition: color 0.3s ease!important; }
 .mainMenu ul li ul li a:hover {color: #f4f4f4!important;}
 .mainMenu ul li ul li.menu-item-has-children > a:before {position: absolute;top: 13px;right: 20px;width: 4px;height: 7px;background-position: -140px -50px;content: "";}
 .mainMenu ul li ul li.menu-item-has-children:hover > a:before {background-position: -150px -50px;}
@@ -157,7 +158,7 @@ transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease,left 0.
 .homeBxSlider.ready {opacity: 1;}
 .homeBxSlider .slide {position: relative; width: 100%; background-repeat: no-repeat;background-position: center center;background-size: cover;}
 .slideDesc {position: absolute;left: 0;top: 55%;width: 100%;text-align: center;opacity: 0;-webkit-transition: opacity 0.4s ease, top 0.4s linear;-moz-transition: opacity 0.4s ease, top 0.4s linear;-o-transition: opacity 0.4s ease, top 0.4s linear;transition: opacity 0.4s ease, top 0.4s linear;}
-.slide.active .slideDesc {top: 50%;opacity: 1;}
+.slide.active .slideDesc {top: 73%;opacity: 1;}
 .slideDesc h2 {line-height: 70px;margin-bottom: 38px; color: #fff;font-size: 60px;font-weight: 300;text-transform: uppercase;}
 .learnMore, .learnMore:visited {display: inline-block;line-height: 46px;padding: 0 40px;background: #637bbb; color: #fff;font-size: 12px;font-family: 'Montserrat', sans-serif;text-decoration: none;text-transform: uppercase;-webkit-border-radius: 23px;-moz-border-radius: 23px;border-radius: 23px;-webkit-transition: background 0.3s ease;-moz-transition: background 0.3s ease;-o-transition: background 0.3s ease;transition: background 0.3s ease;}
 .learnMore:hover {background: #d76498;}
@@ -264,6 +265,9 @@ span.price span {position: relative;top: -11px;left: -2px; font-size: 14px;}
 #footer {position: absolute;bottom: 0;clear:both;display:block;width:100%;height: 154px;padding: 108px 0 0 0; margin:0px auto;background-color:#fff;}
 .footerSocial {float: left;margin-left: 40px;}
 .footerSocial a {display: block;float: left;width: 44px;height: 44px;line-height: 44px;margin-left: 16px; border: 1px solid #7f7f7f;color: #7f7f7f;font-size: 18px; text-decoration: none;text-align: center;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;-webkit-transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;-moz-transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;-o-transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;}
+.footerSocial a.insta:hover {border-color: #eba892; background: #eba892 ;color: #fff;}
+.footerSocial a.twitt:hover {border-color: #33ccff ; background: #33ccff  ;color: #fff;}
+.footerSocial a.faceb:hover {border-color: #3a5897 ; background: #3a5897  ;color: #fff;}
 .footerSocial a:hover {border-color: #637bbb; background: #637bbb;color: #fff;}
 .footerSocial a:first-child {margin-left: 0;}
 
@@ -737,4 +741,63 @@ span.price span {position: relative;top: -11px;left: -2px; font-size: 14px;}
 }
 .logoc{
     margin-top: -16px
+}
+.header-a {height:40px; width:100%; background:#141d1e;}
+.header-b {position:relative;}
+.header-phone {float:left; padding:11px 39px 0px 16px;height:29px;border-left:1px solid #333333;border-right:1px solid #333333;}
+.header-phone span {background:url(../img/icon-phone.png) left top no-repeat; background-position:left 1px; padding:1px 0px 0px 25px;font-size:11px;color:#fff;font-family: 'Montserrat', sans-serif; font-weight:700;display:inline-block;min-height:15px;}
+.header-phone a[href^=tel]{color:#fff; text-decoration:none;}
+.header-account {float:right;}
+.header-account a {color:#fff;font-size:11px;text-transform:uppercase;font-family:'Montserrat';font-weight:700;text-decoration:none;display:inline-block;border-left:1px solid #333333;border-right:1px solid #333333;	padding:14px 22px 0px 22px;height:26px;	}
+.header-social {float:right;border-left:1px solid #333333;	padding:13px 22px 0px 25px;height:27px;	}
+.header-social a {display:inline-block;width:14px;height:14px;margin:0px 9px 0px 9px;}
+.header-social .social-twitter {background:url(../img/head-twitter.png) left top no-repeat;margin-left:0px;}
+.header-social .social-facebook {background:url(../img/head-facebook.png) left top no-repeat;}
+.header-social .social-vimeo {background:url(../img/head-vimeo.png) left top no-repeat;}
+.header-social .social-pinterest {background:url(../img/head-pinterest.png) left top no-repeat;}
+.header-social .social-instagram {background:url(../img/head-instargam.png) left top no-repeat;margin-right:0px;}
+.header-social a:hover {background-position:left -14px;}
+.header-viewed {float:right;position:relative;}
+.viewed-drop {display:none;position:absolute;left:0px;top:40px;z-index:999;border-top:8px solid #fff;width:330px;background:#fcf8f5;}
+.viewed-drop-a {padding:17px 16px 17px 16px;}
+.viewed-item {border-bottom:1px solid #ebe7e4;padding-bottom:13px;margin-bottom:13px;}
+.viewed-item:last-child {border-bottom:0px;margin-bottom:0px;padding-bottom:0px;}
+.viewed-item-l {margin-top:3px;width:79px;float:left;}
+.viewed-item-lbl {margin-bottom:7px;}
+.viewed-item-lbl a {font-family: 'Montserrat';font-weight:normal;font-size:13px;text-transform:uppercase;color:#252525;text-decoration:none;}
+.viewed-item-cat {margin-bottom:8px;font-size:10px;text-transform:uppercase;color:#939393;font-family: 'Raleway';font-weight:600;}
+.viewed-price {font-family: 'Montserrat';font-weight:normal;font-size:17px;color:#ff7200;}
+.viewed-item-r {width:208px;float:right;}
+.header-viewed-btn {display:block;border-left:1px solid #333333;	padding:14px 22px 0px 25px;height:26px;color:#fff;font-size:11px;text-transform:uppercase;font-family:'Montserrat';font-weight:700;text-decoration:none;	}
+.header-lang {float:right;position:relative;}
+.langs-drop {display:none;position:absolute;left:0px;top:41px;border-top:5px solid #fff;padding:10px 10px 3px 15px;background:#fcf8f5;width:125px;z-index:999;}
+.header-lang a {display:block;border-left:1px solid #333333;	padding:13px 13px 0px 13px;height:27px;	}
+.header-lang  a.langs-item {display:inline-block;font-size:10px;color:#697374;margin:0px;padding:0px;height:auto;padding:0px 0px 0px 24px;font-family: 'Raleway';font-weight:600;text-transform:uppercase;	text-decoration:none;border:0px;line-height:13px;margin-bottom:11px;}
+.header-lang  a.langs-item:hover {color:#ff7200;	}
+.header-lang  a.langs-item.en {background:url(../images/en.gif) left top no-repeat;}
+.header-lang  a.langs-item.fr {background:url(../images/fr.gif) left top no-repeat;}
+.header-lang  a.langs-item.de {background:url(../images/de.gif) left top no-repeat;}
+.header-lang  a.langs-item.it {background:url(../images/it.gif) left top no-repeat;}
+.header-curency {float:right;position:relative;}
+.header-curency:hover a {color:#ff7200;}
+.curency-drop {position:absolute;left:0px;display:none;top:40px;border-top:4px solid #fff;z-index:999;font-family:'Raleway';font-weight:700;background:#fcf8f5;width:126px;padding:11px 10px 7px 14px;}
+.header-curency a {display:block;border-left:1px solid #333333;	padding:14px 14px 0px 14px;height:26px;color:#fff;font-size:11px;text-transform:uppercase;font-family:'Montserrat';font-weight:700;text-decoration:none;}
+.header-curency .curency-drop div {margin-bottom:8px;}
+.header-curency .curency-drop a {font-size:11px;color:#697374;margin:0px;padding:0px;height:auto;display:inline;text-transform:uppercase;border:0px;}
+.header-lang {float:right;position:relative;}
+.langs-drop {display:none;position:absolute;left:0px;top:40px;border-top:5px solid #fff;padding:10px 10px 3px 15px;background:#fcf8f5;width:125px;z-index:99999;}
+.header-lang a {display:block;border-left:1px solid #333333;	padding:13px 13px 0px 13px;height:27px;	}
+.header-lang  a.langs-item {display:inline-block;font-size:10px;color:#697374;margin:0px;padding:0px;height:auto;padding:0px 0px 0px 24px;font-family: 'Raleway';font-weight:600;text-transform:uppercase;	text-decoration:none;border:0px;line-height:13px;margin-bottom:11px;}
+.header-lang  a.langs-item:hover {color:#ff7200;	}
+.header-lang  a.langs-item.en {background:url(../images/en.gif) left top no-repeat;}
+.header-lang  a.langs-item.fr {background:url(../images/fr.gif) left top no-repeat;}
+.header-lang  a.langs-item.de {background:url(../images/de.gif) left top no-repeat;}
+.header-lang  a.langs-item.it {background:url(../images/it.gif) left top no-repeat;}
+.header-lang:hover .langs-drop{
+    display: block;
+    z-index: 999999;
+}
+hr{
+    border: 1px solid;
+    color: #cbcbcb;
 }

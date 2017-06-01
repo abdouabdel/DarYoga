@@ -139,14 +139,14 @@ $(document).ready(function(){
 
 	
 
-	/* Sticky
+	/* Sticky */
 	var sticky_navigation_offset_top = 0;
 	var sticky_navigation = function(){
 		var scroll_top = $(window).scrollTop();
 		if (scroll_top > sticky_navigation_offset_top) { 
-			$('#header .headerWrap').addClass("is-sticky");
+			$('#header .headerWrap').addClass("is-sticky2");
 		} else {
-			$('#header .headerWrap').removeClass("is-sticky"); 
+            $('#header .headerWrap').removeClass("is-sticky2");
 		}   
 	};
 	sticky_navigation();
